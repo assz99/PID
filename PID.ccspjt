@@ -1,0 +1,25 @@
+[PROJECT]
+Target=PID.hex
+Processor_Text=PIC18F452
+CCSVerions=5.007
+Compiler=PCH
+CCSVersion=5.015
+[Target Data]
+FileList=PID.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\;C:\Users\maker\Desktop\Renan\MIcroControladores\PID\
+[F:\Renan Guides\FACULDADE\Microcontroladores\PID\PID]
+Type=4
+[mru-list]
+1=PID.c
+[Opened Files]
+1=PID.c
+2=
+3=..\..\..\Porjeto final PID\algoritmo\main.c
+4=
+5=
+[PID.c]
+Type=4
+[Units]
+Count=1
+1=PID (main)

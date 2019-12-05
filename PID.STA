@@ -1,0 +1,66 @@
+
+ROM used:   4206/32768 (13%)
+            4206/32768 (13%) including unused fragments
+
+            5.1 Average locations per line
+            107.8 Average locations per statement
+
+RAM used:   75/1536 (5%) at main() level
+            99/1536 (6%) worst case
+
+Stack used: 5 worst case (3 in main + 2 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  110    39 100  PID.c
+  716     0   0  ..\..\..\..\..\..\..\Program Files (x86)\PICC\Devices\18F452.h
+----- -----
+  826    39 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     26   0    1             @delay_us1
+0     10   0    0    22  1.2  TIMER1_isr
+0     40   0    1    72  1.2  EXT_isr
+0    278   3    0    88  1.7  serial
+0    110   1    0             @const654
+0     32   0    3             @PSTRINGCN_9600_31766_31767
+0     40   0    3  1139  7.6  @DIV88
+0    110   1    2             @PRINTF_U_9600_31766_31767
+0    242   3   11             @MULFF
+0     62   1    5             @FTOSD
+0    142   2   13             @DIV3232
+0    384   5   13             @PRINTF_L32D_9600_31766_31767FPFPF
+0    168   2   12  1139  7.6  @PRINTF_L32U_9600_31766_31767
+0   1148  14    4  1139  7.6  MAIN
+0     26   0    0             @const679
+0     36   0    2             @PSTRINGC_9600_31766_31767
+0    618   7   16             @ADDFF
+0     56   1    4             @SFTOI
+0     54   1    2             @ITOF
+0    346   4   14             @DIVFF
+0    120   1   10             @FLT
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               6
+    Statements              39
+    Comments                147
+    Volume (V)              4775
+    Difficulty (D)          26.0
+    Effort to implement (E) 124007
+    Time to implement (T)   1 hours, 55 minutes
+    Est Delivered Bugs (B)  1
+    Cyclomatic Complexity   9
+    Maintainability (MI)    155
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     0  4  
+00008-000A0   154  0  
+000A2-07FFE  4048  28558  
+
+
+
